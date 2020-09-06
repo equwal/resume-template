@@ -1,9 +1,11 @@
 # Resume Template
 
 ## Instructions
-1. Edit `author.tex` and `resume.tex` for content.
-2. Edit `formatting.tex` to change the format.
-3. `pdflatex resume.tex` to compile.
+
+1. Make your own branch `git branch your-name`.
+2. Edit `author.tex` and `resume.tex` for content.
+3. Edit `formatting.tex` to change the format.
+4. `pdflatex resume.tex` to compile.
 
 ## Contributing
 Please be careful to only pull request changes to the `formatting.tex` file,
