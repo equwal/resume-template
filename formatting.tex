@@ -1,0 +1,40 @@
+\input{author.tex}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=2cm]{geometry}
+
+\titlespacing{\section}
+{0em}{0.5em}{0em}
+% {leftmargin} {topvertical} {rightmargin}
+\titleformat{\section}
+{}
+{}
+{0em}
+{\huge\bfseries}[\titlerule\vspace{0.5em}]
+
+\titlespacing{\subsection}
+{0em}{1em}{0em}
+\titleformat{\subsection}
+{\bfseries\Large}
+{\hspace{-0.5cm}$\bullet$}
+{0em}
+{}[\vspace{0.25cm}]
+
+\titlespacing{\subsubsection}
+{0em}{0.5em}{0.5em}
+\titleformat{\subsubsection}[runin]
+{\bfseries}
+{}
+{0em}
+{}[:]
+
+\renewcommand{\maketitle}{
+	\begin{center}
+	{\huge\bfseries\theauthor}
+
+	\vspace{0.25em}
+
+	\email --- \website
+
+	\end{center}
+}
